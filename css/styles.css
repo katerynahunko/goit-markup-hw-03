@@ -10,7 +10,7 @@
 body {
   font-family: var(--primary-font-family);
   color: #212121;
- }
+}
 
 h1,
 h2,
@@ -42,9 +42,9 @@ img {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 1600px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
 }
 
 .section {
@@ -54,8 +54,6 @@ img {
 
 /* Header */
 
-.header {
-}
 
 .header-container {
   display: flex;
@@ -393,6 +391,9 @@ footer {
 
 .projects-list {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
   margin-right: -30px;
   padding-left: 215px;
