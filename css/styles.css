@@ -10,8 +10,7 @@
 body {
   font-family: var(--primary-font-family);
   color: #212121;
-  width: 1600px;
-}
+ }
 
 h1,
 h2,
@@ -43,6 +42,9 @@ img {
 .container {
   margin-left: auto;
   margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section {
