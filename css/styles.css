@@ -54,7 +54,6 @@ img {
 
 /* Header */
 
-
 .header-container {
   display: flex;
   align-items: center;
@@ -74,7 +73,6 @@ img {
   display: flex;
   align-items: center;
   margin-left: auto;
-  margin-right: 215px;
 }
 
 .logo {
