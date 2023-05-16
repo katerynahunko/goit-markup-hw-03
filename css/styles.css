@@ -76,7 +76,6 @@ img {
 }
 
 .logo {
-  margin-left: 215px;
   margin-right: 92px;
 }
 
@@ -203,6 +202,7 @@ img {
 .features {
   padding-left: 215px;
   padding-right: 215px;
+  display: flex;
 }
 
 .features-list {
@@ -239,8 +239,7 @@ img {
   flex-wrap: wrap;
   margin-right: -30px;
   margin-top: -30px;
-  padding-left: 215px;
-  padding-right: 215px;
+  padding-inline-start: 0;
 }
 
 .duties-list-item {
@@ -251,7 +250,6 @@ img {
 
 .team {
   background-color: #f5f4fa;
-  padding: 0 auto;
   padding-top: 94px;
 }
 
@@ -260,8 +258,7 @@ img {
   flex-wrap: wrap;
   margin-right: -30px;
   margin-top: -30px;
-  padding-left: 215px;
-  padding-right: 215px;
+  padding-inline-start: 0;
 }
 
 .team-list-member {
@@ -337,7 +334,7 @@ footer {
 .filter-list {
   display: flex;
   flex-direction: row;
-  padding-left: 512px;
+  justify-content: flex-start;
   margin-right: -8px;
   padding-bottom: 8px;
 }
@@ -391,11 +388,10 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   flex-wrap: wrap;
-  margin-right: -30px;
-  padding-left: 215px;
-  padding-right: 215px;
+  margin-left: -30px;
+  padding-inline-start: 0;
 }
 
 .projects-list-item {
