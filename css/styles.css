@@ -356,6 +356,10 @@ footer {
   padding-left: 0;
 }
 
+.filter-list-item {
+  padding-bottom: 50px;
+}
+
 .filter-list-item:not(:last-child) {
   margin-right: 8px;
 }
@@ -401,12 +405,13 @@ footer {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
+  margin-top: -30px;
   padding-left: 0;
 }
 
 .projects-list-item {
   margin-right: 30px;
-  margin-top: 34px;
+  margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
 }
 
