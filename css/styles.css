@@ -224,6 +224,10 @@ header {
   overflow: hidden;
 }
 
+.features {
+  padding-bottom: 0;
+}
+
 .features-list {
   display: flex;
   flex-wrap: wrap;
@@ -354,10 +358,7 @@ footer {
   flex-direction: row;
   justify-content: center;
   padding-left: 0;
-}
-
-.filter-list-item {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .filter-list-item:not(:last-child) {
@@ -390,7 +391,6 @@ footer {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--dark-color);
-  margin-top: 20px;
 }
 
 .project-dscr {
